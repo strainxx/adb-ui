@@ -55,4 +55,8 @@ app.whenReady().then(() => {
     tray.setContextMenu(contextMenu)
 })
 
+ipcMain.on('closepls', () =>{
+    app.quit()
+})
+
 console.log('Hello')

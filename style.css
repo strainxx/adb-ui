@@ -3,6 +3,7 @@
 html{
     background: #2B2A4C;
     height: 100%;
+    overflow:hidden;
 }
 
 body{
@@ -32,5 +33,23 @@ body{
     -webkit-user-select: none;
     -webkit-app-region: drag;
 }
+
+#close{
+    float: right;
+    border: none;
+    scale: 200%;
+    background: none;
+    color: wheat;
+    transition-duration: 1s;
+    -webkit-user-select: none;
+    -webkit-app-region: none;
+}
+
+#close:hover{
+    background-color: red;
+    color: black;
+}
+
+
 .div2 { grid-area: 2 / 2 / 6 / 3; }
 .div3 { grid-area: 2 / 1 / 6 / 2; }
