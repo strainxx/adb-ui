@@ -1,0 +1,14 @@
+{
+  "name": "adb-ui",
+  "version": "0.1.0",
+  "description": "Android Debug Bridge, but with UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "cls && electron ."
+  },
+  "author": "strain",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.1.1"
+  }
+}
