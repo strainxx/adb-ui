@@ -9,6 +9,8 @@
   "author": "strain",
   "license": "MIT",
   "dependencies": {
-    "electron": "^25.1.1"
+    "decompress": "^4.2.1",
+    "electron": "^25.1.1",
+    "electron-dl": "^3.5.0"
   }
 }

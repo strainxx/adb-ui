@@ -13,6 +13,10 @@
             <button id="close" onclick="closepls('Bro why you quiting on installation')"><i class="ri-close-fill"></i></button>
         </div>
     </div>
+    <button id="checkADB" onclick="checkInstalled()">Check ADB & Fastboot installation (you can use your own adb files)</button>
+    <a href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip" download id="download" hidden></a>
+    <div class="spinner"><i class="ri-loader-4-line"></i></div>
+    <samp id="inslabel" style="color: aliceblue; visibility: hidden;">Log:<br>Installing platform tools...</samp>
     <script src="render.js"></script>
 </body>
 </html>

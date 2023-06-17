@@ -50,6 +50,30 @@ body{
     color: black;
 }
 
+.spinner{
+    position: fixed;
+    color: aliceblue;
+    scale: 400%;
+    left: 50vw;
+    top: 50%;
+}
+
+#checkADB{
+    background-color: blueviolet;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    left: 18%;
+    top: 70%;
+    transition-duration: 0.5s;
+}
+
+#checkADB:hover{
+    scale: 110%;
+}
 
 .div2 { grid-area: 2 / 2 / 6 / 3; }
 .div3 { grid-area: 2 / 1 / 6 / 2; }
